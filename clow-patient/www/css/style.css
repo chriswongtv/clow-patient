@@ -3,10 +3,18 @@ body .scroll-content {
     background-size: cover;
 }
 
+.custom{
+    background-color: #772620 !important;
+    border-color: none;
+}
+
 .person .small {
     color: white !important;
 }
 
+.und {
+    border-bottom: 1.5px #F45849 solid;
+}
 .person h2 {
     color: white;
 }
@@ -25,6 +33,10 @@ body .scroll-content {
 
 .person h6 {
     color: white;
+}
+
+.person .message {
+    margin-top: 10px;
 }
 
 .person{
