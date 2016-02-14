@@ -1,17 +1,16 @@
 var app = angular.module('clow-patient.controllers.details', []);
 
 app.controller('DetailsCtrl', function($scope, $state) {
+	$scope.firstname = '';
 
 	console.log("Details Controller");
 
 	var firebaseRef = new Firebase("https://clow.firebaseio.com/user");
 	   	
-	firebaseRef.child('lastname').once('value', function(dataSnapshot) {
-   	var lastname = dataSnapshot.B.C
+	firebaseRef.child('firstname').once('value', function(dataSnapshot) {
+   	$scope.firstname = 'Welcome, ' + dataSnapshot.B.C;
 
-   	console.log(lastname);
-
-   	//get last name in details page to say Welcome {{lastname}}
+   	console.log($scope.firstname);
 
    });
 });

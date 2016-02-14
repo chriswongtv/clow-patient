@@ -1,4 +1,32 @@
-/* Empty. Add your own CSS if you like */
+body .scroll-content {
+    background-color: #F45849;
+    background-size: cover;
+}
+
+.person .small {
+    color: white !important;
+}
+
+.person h2 {
+    color: white;
+}
+
+.person h3 {
+    color: white;
+}
+
+.person h4 {
+    color: white;
+}
+
+.person h5 {
+    color: white;
+}
+
+.person h6 {
+    color: white;
+}
+
 .person{
 	text-align: center;
 	padding-bottom: 15px;
@@ -27,10 +55,13 @@ input {
 }
 
 .mapim{
-	height: 200px;
 	width: 100%;
-	background-color: blue;
 }
+
+.mapim img {
+    width: 100%;
+}
+
 .small {
 	font-size: 9px;
 	color: black;
@@ -42,6 +73,11 @@ input {
     margin-top: -50px;
     margin-bottom: -50px;
 
+}
+
+.code {
+    border-bottom: 1px white solid;
+    color: white;
 }
 
 /* Passcode */
